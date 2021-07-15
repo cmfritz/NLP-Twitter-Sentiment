@@ -18,7 +18,7 @@ Looking at the data, we see that we do have a bit of an imbalance, with a large 
 ![pic1](./images/class_imbalance.png)
 
 ### Data Preparation
-TO make the data suitable for modeling, the following steps were taken:
+To make the data suitable for modeling, the following steps were taken:
 
 - Remove undesirable characters
 - Remove Twitter specific text like @ tags
@@ -30,7 +30,7 @@ TO make the data suitable for modeling, the following steps were taken:
 ### Modeling & Evaluation
 For my first model, I used logistic regression. Below are the accuracies achieved for the train and test sets and also the confusion matrix.
 Training Accuracy is: 87.0%
-Validation Accuracy is: 5.4%
+Validation Accuracy is: 65.4%
 ![pic2](./images/model1_cm.png)
 
 For my second model, I used a decision tree classifier.
