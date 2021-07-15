@@ -1,0 +1,10 @@
+
+.ipynb_checkpoints
+.DS_Store
+__pycache__
+*.db
+*.pytest_cache
+jupyter_notebook.pdf
+presentation.pptx
+github.pdf
+zoom_0.mp4
