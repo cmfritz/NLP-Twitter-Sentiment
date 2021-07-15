@@ -46,4 +46,4 @@ Validation accuracy: 65.26%
 
 
 ### Winner
-For the business purpose, it is the most useful to identify a positive or negative sentiment as a neutral sentiment does not give us additional information about a project. Based on this, the best model was my first logistic regression for it ability to identify both positive and negative sentiments. The other models sacrificed ability to identify negative sentiments in favor of accuracy. In this case, a higher accuracy could be achieved by simply picking "neutral" most of the time. For futre work, I would want to address this class imbalance.
+For the business purpose, it is the most useful to identify a positive or negative sentiment as a neutral sentiment does not give us additional information about a project. Based on this, the best model was my first logistic regression for it ability to identify both positive and negative sentiments. The other models sacrificed ability to identify negative sentiments in favor of accuracy. In this case, a higher accuracy could be achieved by simply picking "neutral" most of the time. For future work, I would want to address this class imbalance.
