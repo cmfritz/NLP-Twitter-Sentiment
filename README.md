@@ -1,4 +1,5 @@
 ## Natural Language Processing Project - Twitter Sentiment
+<img src='https://i.gifer.com/RD07.gif'>
 
 ### Business Understanding
 Businesses often wish to get feedback on their products, however getting direct feedback usually requires that someone takes time to write something like a product review. People informally talk about their lives in social media like Twitter, and could be a source of informal product feedback. Being able to automatically capture product sentiment, like if a product was being received positively or negatively, could gain companies insight into how their product is being perceived.
