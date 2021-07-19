@@ -31,6 +31,7 @@ Negative:
 ![pic6](./images/neg_words.png)
 
 ### Modeling & Evaluation
+#### Model 1 - Logistic Regression
 For my first model, I used logistic regression and also ran a grid search on it. Below are the results from the model after the grid search was run.
 
 Training Accuracy: 99.66%<br />
@@ -42,31 +43,29 @@ Test F1 Score: 52.17%
 Confusion Matrix for test data:<br />
 ![pic2](./images/model1_cm.png)
 
+#### Model 2 - Decision Tree
 For my second model, I used a decision tree classifier. Below are the results.
-<br />
-Training Accuracy: 99.69%
-Test Accuracy: 75.07%
-<br />
-Training F1 Score: 99.69%
-Test F1 Score: 45.87%
-<br />
-Confusion Matrix for test data:
-<br />
-![pic3](./images/model2_cm.png)
-<br /><br />
 
+Training Accuracy: 99.69%<br />
+Test Accuracy: 75.07%
+
+Training F1 Score: 99.69%<br />
+Test F1 Score: 45.87%
+
+Confusion Matrix for test data:<br />
+![pic3](./images/model2_cm.png)
+
+#### Model 3 - XG Boost
 For my third model, I used a gradient boosted model, XG Boost. Below are the results.
-<br />
-Training Accuracy: 82.42%
+
+Training Accuracy: 82.42%<br />
 Test Accuracy: 71.97%
-<br />
-Training F1 Score: 83.68%
+
+Training F1 Score: 83.68%<br />
 Test F1 Score: 41.3%
-<br />
-Confusion Matrix for test data:
-<br />
+
+Confusion Matrix for test data:<br />
 ![pic4](./images/model3_cm.png)
-<br /><br />
 
 ### Feature Importance
 The logistic regression model will be selected, so let's look at top influential features for the Linear Regression model.
