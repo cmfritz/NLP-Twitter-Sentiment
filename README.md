@@ -39,7 +39,8 @@ Test Accuracy: 81.41%
 Training F1 Score: 99.66%
 Test F1 Score: 52.17%
 <br />
-Confusion Matrix for test data
+Confusion Matrix for test data:
+<br />
 ![pic2](./images/model1_cm.png)
 <br /><br />
 
@@ -51,7 +52,8 @@ Test Accuracy: 75.07%
 Training F1 Score: 99.69%
 Test F1 Score: 45.87%
 <br />
-Confusion Matrix for test data
+Confusion Matrix for test data:
+<br />
 ![pic3](./images/model2_cm.png)
 <br /><br />
 
@@ -63,7 +65,8 @@ Test Accuracy: 71.97%
 Training F1 Score: 83.68%
 Test F1 Score: 41.3%
 <br />
-Confusion Matrix for test data
+Confusion Matrix for test data:
+<br />
 ![pic4](./images/model3_cm.png)
 <br /><br />
 
