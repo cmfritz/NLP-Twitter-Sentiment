@@ -1,5 +1,4 @@
 ## Natural Language Processing Project - Twitter Sentiment
-<img src='https://i.gifer.com/RD07.gif'>
 
 ### Business Understanding
 Businesses often wish to get feedback on their products, however getting direct feedback usually requires that someone takes time to write something like a product review. People informally talk about their lives in social media like Twitter, and could be a source of informal product feedback. Being able to automatically capture product sentiment, like if a product was being received positively or negatively, could gain companies insight into how their product is being perceived.
@@ -68,14 +67,18 @@ Confusion Matrix for test data
 ![pic4](./images/model3_cm.png)
 <br /><br />
 
+### Feature Importance
+The logistic regression model will be selected, so let's look at top influential features for the Linear Regression model.
+![pic8](./images/featureimportance.png)
+
 ### Conclusion
 #### Results
-For the business purpose, it is the most useful to identify a positive or negative sentiment as a neutral sentiment does not give us additional information about a project. Based on this, the selected model is the grid-seached logistic regression model (Model 1b). The reason for choosing this mode is that it can predict positive sentiments better than other models, while achieving about the same negative predictions as than the other models. This is reflected by the f1 scores and confusion matrices for the test data. The other models had reduced ability to identify positive cases while only slightly better performing with the negative cases.
+For the business purpose, it is the most useful to identify a positive or negative sentiment as a neutral sentiment does not give us additional information about a project. Based on this, the selected model is the grid-searched logistic regression model (Model 1b). The reason for choosing this mode is that it can predict positive sentiments better than other models, while achieving about the same negative predictions as than the other models. This is reflected by the f1 scores and confusion matrices for the test data. The other models had reduced ability to identify positive cases while only slightly better performing with the negative cases.
 #### Recommendations
 Based on these findings, it is recommended that:
 1. Tweets can be analyzed via machine learning to capture sentiments
-2. The model should be periodically retrained with new data to improve results
-3.
+2. The model should be periodically retrained with new data to improve results, especially for the negative class
+3. The top words give a variety of insight into why people are posting tweets in the first place. For example "free" could indicate the occassion to tweet about a product, while "great" is how a tweeter feels. One interpretation could be one could encourage reviews by giving out free products.
 
 ### Deployment
 For More Information, please review my full analysis in Jupyter Notebook or my presentation.
