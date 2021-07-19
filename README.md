@@ -32,17 +32,15 @@ Negative:
 
 ### Modeling & Evaluation
 For my first model, I used logistic regression and also ran a grid search on it. Below are the results from the model after the grid search was run.
-<br />
-Training Accuracy: 99.66%
+
+Training Accuracy: 99.66%<br />
 Test Accuracy: 81.41%
-<br />
-Training F1 Score: 99.66%
+
+Training F1 Score: 99.66%<br />
 Test F1 Score: 52.17%
-<br />
-Confusion Matrix for test data:
-<br />
+
+Confusion Matrix for test data:<br />
 ![pic2](./images/model1_cm.png)
-<br /><br />
 
 For my second model, I used a decision tree classifier. Below are the results.
 <br />
